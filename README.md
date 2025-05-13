@@ -51,23 +51,6 @@ Netlify (or GitHub Pages/Vercel) – For deployment
 Deployed Site: https://your-site-name.netlify.app
 (Replace this with your actual deployment URL)
 
-📂 Project Structure
-my-blog/
-│
-├── index.html          # Homepage
-├── blog.html           # Blog post listing
-├── post1.html          # Blog post 1: JavaScript Closures
-├── post2.html          # Blog post 2: Morning Routines
-├── post3.html          # Blog post 3: Travel in Europe
-├── about.html          # About the blog
-├── contact.html        # Contact form
-│
-├── styles.css          # Main CSS styles
-├── script.js           # JavaScript for interactivity
-├── /images             # Folder for images (if used)
-├── README.md           # Project documentation (optional)
-└── .gitignore          # (Optional) Git ignore file
-
 
 ✨ Features
 ✅ 1. Responsive Navigation Bar
@@ -105,7 +88,7 @@ Hamburger Menu: Toggles nav links visibility on small screens
 
 (Optional extensions: blog search, post filtering etc.)
 
-
+Live Link : https://blog-site-sam.netlify.app/
 
 📌 Future Improvements (Optional)
 Add blog search/filtering
@@ -117,5 +100,5 @@ Enable commenting system
 Add image assets for posts
 
 👨‍💻 Developer Info
-Email: you@example.com
-GitHub: github.com/yourusername
+Email: fridaysamuel508@gmail.com
+GitHub: github.com/IamSamDdev
