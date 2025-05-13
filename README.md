@@ -23,3 +23,99 @@ Use at least 5 different HTML elements.
 Ensure semantic correctness.
 
 Good luck and happy coding! 🚀💻
+
+
+
+
+
+📘 Blog Website – Project Documentation
+
+✅ Project Title:
+My Blog – A Responsive Multi-Page Blog Website
+
+📌 Objective
+Build a fully functional and responsive blog website using HTML, CSS, and JavaScript. This project demonstrates knowledge of semantic HTML, responsive design, JavaScript interactivity, and web deployment.
+
+🧰 Technologies Used
+HTML5 – For page structure and semantic layout
+
+CSS3 – For styling and responsive design
+
+JavaScript (Vanilla) – For interactivity (menu toggle, theme toggle)
+
+Git & GitHub – For version control and repository hosting
+
+Netlify (or GitHub Pages/Vercel) – For deployment
+
+🌐 Live Demo
+Deployed Site: https://your-site-name.netlify.app
+(Replace this with your actual deployment URL)
+
+📂 Project Structure
+my-blog/
+│
+├── index.html          # Homepage
+├── blog.html           # Blog post listing
+├── post1.html          # Blog post 1: JavaScript Closures
+├── post2.html          # Blog post 2: Morning Routines
+├── post3.html          # Blog post 3: Travel in Europe
+├── about.html          # About the blog
+├── contact.html        # Contact form
+│
+├── styles.css          # Main CSS styles
+├── script.js           # JavaScript for interactivity
+├── /images             # Folder for images (if used)
+├── README.md           # Project documentation (optional)
+└── .gitignore          # (Optional) Git ignore file
+
+
+✨ Features
+✅ 1. Responsive Navigation Bar
+Flex layout on larger screens
+
+Hamburger menu on smaller screens
+
+Navigation toggled via JavaScript
+
+✅ 2. Dark/Light Theme Toggle
+Button to switch between dark and light themes
+
+Toggle position responsive and non-overlapping
+
+✅ 3. Blog Listing Page
+Displays a list of blog articles
+
+✅ 4. Individual Blog Post Pages
+Three unique blog posts with titles, publish dates, sections, and content
+
+✅ 5. Contact Page
+Styled contact form with name, email, and message
+
+Ready for form validation (JavaScript)
+
+✅ 6. Responsive Design
+Fully mobile-friendly using media queries
+
+Layout adjusts for tablets, phones, and desktops
+
+🧪 JavaScript Functionalities
+Theme Toggle: Switches between dark and light modes
+
+Hamburger Menu: Toggles nav links visibility on small screens
+
+(Optional extensions: blog search, post filtering etc.)
+
+
+
+📌 Future Improvements (Optional)
+Add blog search/filtering
+
+Integrate real backend (e.g., Firebase or Node.js)
+
+Enable commenting system
+
+Add image assets for posts
+
+👨‍💻 Developer Info
+Email: you@example.com
+GitHub: github.com/yourusername

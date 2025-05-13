@@ -1,0 +1,84 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Blog Post - My Blog</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  
+
+  <header>
+  <nav class="navbar">
+    <h1 class="logo">My Blog</h1>
+     <button id="theme-toggle">🌙</button>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+   
+  </nav>
+</header>
+
+  <main>
+  
+<article class="blog-post">
+  <h2>Understanding JavaScript Closures</h2>
+  <p><em>Published on May 13, 2025</em></p>
+
+  <p>JavaScript closures are one of the most powerful features in the language, and also one of the most misunderstood. In simple terms, a closure is created when a function is defined inside another function, and the inner function has access to the outer function’s variables.</p>
+
+  <h3>What is a Closure?</h3>
+  <p>A closure is formed when an inner function remembers the environment in which it was created — even after the outer function has finished executing.</p>
+
+  <pre><code>
+function outer() {
+  let counter = 0;
+  function inner() {
+    counter++;
+    console.log(counter);
+  }
+  return inner;
+}
+
+const increment = outer();
+increment(); // 1
+increment(); // 2
+  </code></pre>
+
+  <p>In the example above, the inner function retains access to the <code>counter</code> variable, even though the outer function has completed. That’s because of closure.</p>
+
+  <h3>Why Closures Matter</h3>
+  <ul>
+    <li>They allow data to be kept private (encapsulation)</li>
+    <li>Useful for function factories and currying</li>
+    <li>Powerful for callbacks and asynchronous code</li>
+  </ul>
+
+  <h3>Real-Life Use Cases</h3>
+  <p>Closures are commonly used in event listeners, timer functions, and modules that need to maintain private state across function calls.</p>
+
+  <h3>Conclusion</h3>
+  <p>Closures can be tricky to grasp at first, but once you understand them, you'll have a much deeper understanding of how JavaScript works under the hood.</p>
+</article>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

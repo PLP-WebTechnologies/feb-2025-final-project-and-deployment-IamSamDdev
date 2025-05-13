@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Posts - My Blog</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+
+  <header>
+  <nav class="navbar">
+    <h1 class="logo">My Blog</h1>
+     <button id="theme-toggle">🌙</button>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<main>
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Search posts..." oninput="searchPosts()" />
+</div>
+
+  <section>
+     <h2 class="blog-h2-text">All Blog Posts</h2>
+
+  <div class="filter-buttons">
+    <button onclick="filterPosts('all')">All</button>
+    <button onclick="filterPosts('tech')">Tech</button>
+    <button onclick="filterPosts('lifestyle')">Lifestyle</button>
+    <button onclick="filterPosts('travel')">Travel</button>
+  </div>
+
+  <div class="post-list" id="postList">
+    <article class="post" data-category="tech">
+      <h3><a href="post.html">Understanding JavaScript Closures</a></h3>
+      <p>Learn how closures work in JS and why they're powerful.</p>
+    </article>
+
+    <article class="post" data-category="lifestyle">
+      <h3><a href="post2.html">Morning Routines for Productivity</a></h3>
+      <p>Start your day right with these simple morning habits.</p>
+    </article>
+
+    <article class="post" data-category="travel">
+      <h3><a href="post3.html">Top 5 Places to Visit in Europe</a></h3>
+      <p>Explore the best spots for your next vacation.</p>
+    </article>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

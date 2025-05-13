@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - My Blog</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  
+  <header>
+  <nav class="navbar">
+    <h1 class="logo">My Blog</h1>
+     <button id="theme-toggle">🌙</button>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+  <main>
+    <section class="contact-form">
+      <h2>Contact Me</h2>
+      <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
