@@ -45,11 +45,11 @@ JavaScript (Vanilla) – For interactivity (menu toggle, theme toggle)
 
 Git & GitHub – For version control and repository hosting
 
-Netlify (or GitHub Pages/Vercel) – For deployment
+Netlify - For deployment
 
 🌐 Live Demo
-Deployed Site: https://your-site-name.netlify.app
-(Replace this with your actual deployment URL)
+Deployed Site: https://blog-site-sam.netlify.app/
+
 
 
 ✨ Features
@@ -88,7 +88,6 @@ Hamburger Menu: Toggles nav links visibility on small screens
 
 (Optional extensions: blog search, post filtering etc.)
 
-Live Link : https://blog-site-sam.netlify.app/
 
 📌 Future Improvements (Optional)
 Add blog search/filtering
